@@ -4,11 +4,11 @@ import java.util.Scanner;
 
 public class PetAdmin {
     public static void main(String[] args) {
-        Cat cat = new Cat();
+        Pet2 cat = new Pet2();
         cat.name = "公主";
         cat.sex = "雌性";
         cat.food = "鱼";
-        Dog dog = new Dog();
+        Pet2 dog = new Pet2();
         dog.name = "王子";
         dog.sex = "雄性";
         dog.food = "骨头";
