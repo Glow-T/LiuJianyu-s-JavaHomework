@@ -16,10 +16,10 @@ public class PetAdmin {
         System.out.print("请选择宠物 1、狗 2、猫");
         int sex = sc.nextInt();
         if (sex == 1) {
-            System.out.println(dog.name + "，来吃" + dog.food);
+            dog.chose();
         } else {
             if (sex == 2) {
-                System.out.println(cat.name + "，来吃" + cat.food);
+                cat.chose();
             }
         }
 
