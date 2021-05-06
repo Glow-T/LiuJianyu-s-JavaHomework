@@ -5,5 +5,5 @@ public class Student {
     public int Chinese;
     public int Math;
     public int English;
-    public float average = (Chinese+Math+English)/3;
+    public float average;
 }
